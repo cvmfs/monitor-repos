@@ -1,0 +1,5 @@
+{
+        "name": "My example repository",
+        "fqrn": "myrepo.randomdomain.og",
+        "url": "http://my-stratum-hostname/cvmfs/"
+}
