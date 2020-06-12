@@ -1,0 +1,5 @@
+{
+  "name": "CernVM Operating System",
+  "fqrn": "cernvm-prod.cern.ch",
+  "url": "http://cvmfs-stratum-one.cern.ch/cvmfs/"
+}

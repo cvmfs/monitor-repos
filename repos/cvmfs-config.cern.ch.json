@@ -1,0 +1,5 @@
+{
+  "name": "CernVM-FS Default Config Repository",
+  "fqrn": "cvmfs-config.cern.ch",
+  "url": "http://cvmfs-stratum-one.cern.ch/cvmfs/"
+}
