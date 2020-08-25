@@ -1,0 +1,5 @@
+{
+        "name": "Singularity Container Repository @ DESY",
+        "fqrn": "containers.desy.de",
+        "url": "http://grid-cvmfs-one.desy.de"
+}
