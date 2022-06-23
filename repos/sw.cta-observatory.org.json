@@ -1,0 +1,5 @@
+{
+        "name": "Software Repository for CTA hosted at DESY-ZN - Stratum Server at cvmfs-stratum-one.zeuthen.desy.de - Reevrse Proxy at grid-cvmfs-one.desy.de",
+        "fqrn": "sw.cta-observatory.org",
+        "url": "http://grid-cvmfs-one.desy.de/cvmfs/"
+}
