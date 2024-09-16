@@ -1,0 +1,16 @@
+{
+  "administrator" : "Grid@DESY",
+  "email" : "grid@desy.de", 
+  "organisation" : "DESY",
+  "description" : "CALICE VO/Group Repo",
+  "url" : "https://confluence.desy.de/display/grid/DESY+CVMFS+Repositories",
+  "recommended-stratum0" : "http://grid-cvmfs-null.desy.de:8000/cvmfs/",
+  "recommended-stratum1s" : [ "http://grid-cvmfs-one.desy.de:8000/cvmfs/calice.desy.de" ],
+  "custom" : {
+    "Puppet" : {
+       "hiera"    : "cvmfsstratum::meta::repo::hash",
+       "module"   : "module-cvmfs_stratum0",
+       "template" : "module-cvmfs_stratum0/templates/etc/cvmfs/metadata/repo.json.erb"
+    }
+     }
+}
