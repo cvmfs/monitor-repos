@@ -1,5 +1,5 @@
 {
-        "name": "Repository of ALPS II at DESY"
+        "name": "Repository of ALPS II at DESY",
         "fqrn": "alps.desy.de",
-        "url": "http://grid-cvmfs-one.desy.de/cvmfs/"
+        "url": "http://grid-cvmfs-one.desy.de/cvmfs/",
 }
