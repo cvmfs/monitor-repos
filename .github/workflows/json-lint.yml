@@ -15,20 +15,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install jsonlint-cli
-        run: npm install --global jsonlint-cli
+      - name: Install jsonlint
+        run: sudo apt install python3-demjson
 
       - name: Lint repos/*.json
         run: |
-          shopt -s nullglob
-          files=(repos/*.json)
-          if [ ${#files[@]} -eq 0 ]; then
-            echo "No JSON files found under repos/"
-            exit 0
-          fi
-          jsonlint -q "${files[@]}"
+          jsonlint repos/*.json
